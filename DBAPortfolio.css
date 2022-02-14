@@ -1,0 +1,246 @@
+body {
+  background: linear-gradient(
+    rgba(230, 100, 101, 0.9),
+    rgba(135, 143, 233, 0.3)
+  );
+}
+
+#ss {
+  position: fixed;
+  width: 1500px;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgreen;
+
+  /* border: 1px solid red; */
+}
+
+#heading {
+  order: 1;
+  margin: 5px;
+  font-weight: bold;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 30px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  /* border: 2px solid red; */
+}
+
+#deadspace {
+  order: 2;
+  flex-grow: 3;
+  height: 40px;
+  /* border: 1px solid red; */
+  /* border: 2px solid red; */
+}
+
+#optn {
+  order: 3;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.mem {
+  flex-grow: 1;
+  text-align: center;
+  padding: 3px;
+  font-family: Rockwell;
+  font-size: 20px;
+
+  background-color: transparent;
+
+  /* border: 2px solid red; */
+}
+
+.mem a {
+  text-decoration: none;
+  color: black;
+}
+
+#spacers {
+  /* border: 1px solid black; */
+  height: 30px;
+  margin: 10px 0px 10px 0px;
+}
+
+#heroarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid yellow; */
+  margin: 20px;
+}
+
+#sideimage {
+  order: 2;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 50px 50px 50px 0px;
+  /* border: 2px solid red; */
+}
+
+#main {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15px 100px 0px 40px;
+  flex-grow: 2;
+  /* border: 1px solid black; */
+}
+
+.cont1 {
+  font-family: Calibri;
+  font-size: 50px;
+  width: 90%;
+  margin: 10px 10px 10px 30px;
+  /* border: 1px solid red; */
+}
+
+.cont2 {
+  font-family: Calibri;
+  font-size: 30px;
+  width: 95%;
+  margin: 10px 10px 10px 30px;
+  /* border: 1px solid red; */
+}
+
+#readbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  margin: 15px;
+  margin: 10px 10px 10px 30px;
+  /* border: 1px solid red; */
+  /* border: 2px solid red; */
+}
+
+#bt {
+  font-family: Verdana;
+  font-size: 15px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  border: 0.1px grudge gray;
+}
+
+#hrline {
+  height: 0px;
+  border: 2px solid black;
+  margin: 20px 0px 10px 0px;
+  background: black;
+  width: 1200px;
+}
+
+#heroarea2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 2px solid yellow; */
+  margin: 20px;
+}
+
+.tittl {
+  order: 1;
+  font-family: Calibri;
+  font-size: 40px;
+  font-weight: bold;
+  width: 90%;
+  margin: 10px 10px 10px 50px;
+  /* border: 1px solid red; */
+}
+
+#cont3 {
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px 30px 20px 50px;
+  /* border: 1px solid red; */
+}
+
+.m1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 10px 5px 10px;
+  background: rgba(255, 127, 80, 0.8);
+  /* border: 1px solid red; */
+}
+
+.hed {
+  font-family: cursive;
+  font-size: 25px;
+  margin: 5px 0px 20px 10px;
+  /* border: 1px solid red; */
+}
+
+.ct {
+  font-family: Bradley Hand, cursive;
+  font-size: 15px;
+  margin: 5px 5px 10px 10px;
+  /* border: 1px solid red; */
+}
+
+#heroarea3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 2px solid orange; */
+  margin: 20px;
+}
+
+#cont4 {
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 30px 20px 50px;
+  /* border: 1px solid red; */
+}
+
+.m2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px 50px 50px 40px;
+  border-radius: 15px;
+  background: lightslategray;
+  /* border: 1px solid red; */
+}
+
+.hed2 {
+  font-family: cursive;
+  font-size: 25px;
+  margin: 15px 0px 20px 20px;
+  /* border: 1px solid red; */
+}
+
+.ct2 {
+  font-family: Bradley Hand, cursive;
+  font-size: 15px;
+  margin: 5px 10px 10px 10px;
+  /* border: 1px solid red; */
+}
